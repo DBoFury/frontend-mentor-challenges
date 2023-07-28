@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/frontend-mentor-challenges",
+  assetPrefix:
+    process.env.NODE_ENV === "production"
+      ? "/frontend-mentor-challenges/"
+      : undefined,
 };
 
 module.exports = nextConfig;
