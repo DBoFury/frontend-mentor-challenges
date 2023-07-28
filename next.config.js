@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  assetPrefix:
-    process.env.NODE_ENV === "production"
-      ? "https://dbofury.github.io/frontend-mentor-challenges/"
-      : undefined,
+  basePath: "/frontend-mentor-challenges",
+  assetPrefix: "/frontend-mentor-challenges/",
 };
 
 module.exports = nextConfig;
