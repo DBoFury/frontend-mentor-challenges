@@ -29,7 +29,13 @@ const Hero = () => {
         Get Started
       </button>
 
-      <div className="absolute bottom-0 w-full h-full bg-bottom bg-no-repeat bg-contain bg-fylo-mobile sm:bg-fylo-desktop" />
+      <div
+        className={`absolute bottom-0 w-full h-full bg-bottom bg-no-repeat bg-contain ${
+          process.env.NODE_ENV === "production"
+            ? "bg-fylo-mobile-prod sm:bg-fylo-desktop-prod"
+            : "bg-fylo-mobile sm:bg-fylo-desktop"
+        }`}
+      />
     </section>
   );
 };
