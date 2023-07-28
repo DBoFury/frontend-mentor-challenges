@@ -3,7 +3,7 @@ const nextConfig = {
   output: "export",
   assetPrefix:
     process.env.NODE_ENV === "production"
-      ? "/frontend-mentor-challenges/"
+      ? "https://dbofury.github.io/frontend-mentor-challenges/"
       : undefined,
 };
 
