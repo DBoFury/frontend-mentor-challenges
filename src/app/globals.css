@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link-item {
+  @apply block bg-opacity-10 p-2 px-4 rounded-md bg-box w-full sm:w-[35vw] shadow-md focus:outline-none hover:bg-box-hover;
+}

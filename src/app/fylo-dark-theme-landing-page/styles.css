@@ -1,0 +1,29 @@
+.feature-item {
+  @apply flex flex-col items-center space-y-4 text-center w-3/4 text-white font-raleway;
+}
+
+.review-card {
+  @apply text-white text-[0.625rem] font-raleway max-w-[22rem] shadow-sm bg-fylo-testimonials rounded-md;
+}
+
+.early-access-card {
+  @apply bg-fylo-intro text-white font-raleway text-[0.625rem] max-w-[60rem] w-[90%] shadow-lg rounded-md;
+}
+
+.footer-link {
+  @apply hover:font-semibold;
+}
+
+.header-link {
+  @apply hover:font-semibold hover:border-b-2;
+}
+
+.footer-link::before,
+.header-link::before {
+  display: block;
+  content: attr(data-title);
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Basic",
+        "price": {
+            "monthly": 19.99,
+            "annually": 199.9
+        },
+        "plan": {
+            "storage": "500 GB",
+            "allowedUsers": 2,
+            "sendLimit": "3 GB"
+        }
+    },
+    {
+        "title": "Professional",
+        "price": {
+            "monthly": 24.99,
+            "annually": 249.9
+        },
+        "plan": {
+            "storage": "1 TB",
+            "allowedUsers": 5,
+            "sendLimit": "10 GB"
+        }
+    },
+    {
+        "title": "Master",
+        "price": {
+            "monthly": 39.99,
+            "annually": 399.9
+        },
+        "plan": {
+            "storage": "2 TB",
+            "allowedUsers": 10,
+            "sendLimit": "20 GB"
+        }
+    }
+]
