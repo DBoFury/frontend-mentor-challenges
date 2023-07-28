@@ -1,6 +1,9 @@
 import Card from "@/components/3cpcc/Card";
 
-const baseImagePath = "/3-column-preview-card-component";
+const baseImagePath =
+  process.env.NODE_ENV === "production"
+    ? "/frontend-mentor-challenges/3-column-preview-card-component"
+    : "/3-column-preview-card-component";
 
 const page = () => {
   return (

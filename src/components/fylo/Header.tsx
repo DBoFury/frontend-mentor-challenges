@@ -12,7 +12,11 @@ const Header: FC<HeaderProps> = ({}) => {
           href="/fylo-dark-theme-landing-page"
           className="relative w-20 h-10 overflow-hidden sm:h-16 sm:w-32 md:h-20 md:w-40 lg:h-24 lg:w-48">
           <Image
-            src="/fylo-dark-theme-landing-page/logo.svg"
+            src={
+              process.env.NODE_ENV === "production"
+                ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/logo.svg"
+                : "/fylo-dark-theme-landing-page/logo.svg"
+            }
             alt="logo"
             fill
             className="object-contain"

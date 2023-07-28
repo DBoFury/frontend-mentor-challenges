@@ -68,7 +68,11 @@ const Form: FC<FormProps> = ({ setCardDetails }) => {
         <div className="flex-1 flex flex-col self-center items-center justify-around mt-24 mx-[6%] text-lg md:text-4xl md:h-1/3 dt:mx-72 dt:my-20 dt:max-w-[30rem] dt:text-sm dt:h-72">
           <div className="animate-fade-down animate-once animate-duration-500 animate-delay-100 animate-ease-in">
             <Image
-              src="/interactive-card-details-form/icon-complete.svg"
+              src={
+                process.env.NODE_ENV === "production"
+                  ? "/frontend-mentor-challenges/interactive-card-details-form/icon-complete.svg"
+                  : "/interactive-card-details-form/icon-complete.svg"
+              }
               alt="complete icon"
               width={60}
               height={60}

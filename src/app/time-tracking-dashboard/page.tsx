@@ -14,7 +14,11 @@ const page = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/time-tracking-dashboard/data.json");
+        const response = await fetch(
+          process.env.NODE_ENV === "production"
+            ? "/frontend-mentor-challenges/time-tracking-dashboard/data.json"
+            : "/time-tracking-dashboard/data.json"
+        );
         const jsonData = await response.json();
         setData(jsonData);
       } catch (error) {

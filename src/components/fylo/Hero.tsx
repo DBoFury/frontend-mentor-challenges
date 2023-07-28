@@ -5,7 +5,11 @@ const Hero = () => {
     <section className="relative flex flex-col items-center justify-center w-full px-10 space-y-5 related sm:px-0 bg-fylo-intro">
       <div className="z-20">
         <Image
-          src="/fylo-dark-theme-landing-page/illustration-intro.png"
+          src={
+            process.env.NODE_ENV === "production"
+              ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/illustration-intro.png"
+              : "/fylo-dark-theme-landing-page/illustration-intro.png"
+          }
           alt="intro image"
           width={700}
           height={760}

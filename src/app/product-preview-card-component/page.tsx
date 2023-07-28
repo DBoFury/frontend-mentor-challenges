@@ -5,14 +5,22 @@ const page = () => {
     <div className="flex items-center justify-center min-h-screen bg-ppc-cream">
       <div className="flex flex-col max-w-2xl m-4 dt:flex-row">
         <Image
-          src="/product-preview-card-component/image-product-desktop.jpg"
+          src={
+            process.env.NODE_ENV === "production"
+              ? "/frontend-mentor-challenges/product-preview-card-component/image-product-desktop.jpg"
+              : "/product-preview-card-component/image-product-desktop.jpg"
+          }
           alt="desktop product image"
           width={500}
           height={500}
           className="hidden object-contain rounded-l-xl dt:block"
         />
         <Image
-          src="/product-preview-card-component/image-product-mobile.jpg"
+          src={
+            process.env.NODE_ENV === "production"
+              ? "/frontend-mentor-challenges/product-preview-card-component/image-product-mobile.jpg"
+              : "/product-preview-card-component/image-product-mobile.jpg"
+          }
           alt="mobile product image"
           width={1000}
           height={250}
@@ -40,7 +48,11 @@ const page = () => {
             </div>
             <button className="flex items-center justify-center w-full py-4 space-x-3 font-bold text-white bg-ppc-dark-cyan rounded-xl font-montserrat focus:outline-none hover:bg-ppc-dark-cyan-dark">
               <Image
-                src="/product-preview-card-component/icon-cart.svg"
+                src={
+                  process.env.NODE_ENV === "production"
+                    ? "/frontend-mentor-challenges/product-preview-card-component/icon-cart.svg"
+                    : "/product-preview-card-component/icon-cart.svg"
+                }
                 alt="cart icon"
                 width={50}
                 height={50}

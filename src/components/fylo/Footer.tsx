@@ -7,7 +7,11 @@ const Footer = () => {
     <footer className="flex flex-col px-8 pb-16 space-y-16 text-white pt-44 font-raleway bg-fylo-footer lg:px-32">
       <Link href="/fylo-dark-theme-landing-page">
         <Image
-          src="/fylo-dark-theme-landing-page/logo.svg"
+          src={
+            process.env.NODE_ENV === "production"
+              ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/logo.svg"
+              : "/fylo-dark-theme-landing-page/logo.svg"
+          }
           alt="logo"
           width={160}
           height={80}
@@ -17,7 +21,11 @@ const Footer = () => {
       <div className="flex flex-col space-y-2 md:flex-row md:space-y-0 md:justify-between">
         <div className="flex items-start w-3/5 space-x-5 md:w-1/3">
           <Image
-            src="/fylo-dark-theme-landing-page/icon-location.svg"
+            src={
+              process.env.NODE_ENV === "production"
+                ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-location.svg"
+                : "/fylo-dark-theme-landing-page/icon-location.svg"
+            }
             alt="location icon"
             width={20}
             height={20}
@@ -31,7 +39,11 @@ const Footer = () => {
         <div className="flex flex-col space-y-2">
           <div className="flex items-start space-x-4">
             <Image
-              src="/fylo-dark-theme-landing-page/icon-phone.svg"
+              src={
+                process.env.NODE_ENV === "production"
+                  ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-phone.svg"
+                  : "/fylo-dark-theme-landing-page/icon-phone.svg"
+              }
               alt="phone icon"
               width={17}
               height={17}
@@ -41,7 +53,11 @@ const Footer = () => {
           </div>
           <div className="flex items-start space-x-4">
             <Image
-              src="/fylo-dark-theme-landing-page/icon-email.svg"
+              src={
+                process.env.NODE_ENV === "production"
+                  ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-email.svg"
+                  : "/fylo-dark-theme-landing-page/icon-email.svg"
+              }
               alt="email icon"
               width={20}
               height={20}

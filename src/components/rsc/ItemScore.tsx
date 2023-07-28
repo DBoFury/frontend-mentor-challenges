@@ -19,7 +19,11 @@ const ItemScore: FC<ItemScoreProps> = ({ score }) => {
       <div className="flex items-center space-x-3">
         {score.icon && (
           <Image
-            src={`/results-summary-component/${score.icon}.svg`}
+            src={
+              process.env.NODE_ENV === "production"
+                ? `/frontend-mentor-challenges/results-summary-component/${score.icon}.svg`
+                : `/results-summary-component/${score.icon}.svg`
+            }
             alt={`${score.category} icon`}
             width={30}
             height={30}

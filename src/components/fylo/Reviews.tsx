@@ -7,7 +7,11 @@ const Reviews = () => {
       <div className="relative">
         <div className="absolute h-[1.4rem] w-[1.5rem] z-0 -translate-y-full left-2 md:w-[2.25rem] md:h-[2rem] md:-translate-y-3/4 md:left-0 md:-translate-x-[20%]">
           <Image
-            src="/fylo-dark-theme-landing-page/bg-quotes.png"
+            src={
+              process.env.NODE_ENV === "production"
+                ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/bg-quotes.png"
+                : "/fylo-dark-theme-landing-page/bg-quotes.png"
+            }
             alt="quotes icon"
             fill
             className="object-contain"
@@ -24,7 +28,11 @@ const Reviews = () => {
             <div className="flex space-x-2">
               <div>
                 <Image
-                  src="/fylo-dark-theme-landing-page/profile-1.jpg"
+                  src={
+                    process.env.NODE_ENV === "production"
+                      ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/profile-1.jpg"
+                      : "/fylo-dark-theme-landing-page/profile-1.jpg"
+                  }
                   alt="first review profile photo"
                   height={30}
                   width={30}
@@ -51,7 +59,11 @@ const Reviews = () => {
             <div className="flex space-x-2">
               <div>
                 <Image
-                  src="/fylo-dark-theme-landing-page/profile-2.jpg"
+                  src={
+                    process.env.NODE_ENV === "production"
+                      ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/profile-2.jpg"
+                      : "/fylo-dark-theme-landing-page/profile-2.jpg"
+                  }
                   alt="second review profile photo"
                   height={30}
                   width={30}
@@ -78,7 +90,11 @@ const Reviews = () => {
             <div className="flex space-x-2">
               <div>
                 <Image
-                  src="/fylo-dark-theme-landing-page/profile-3.jpg"
+                  src={
+                    process.env.NODE_ENV === "production"
+                      ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/profile-3.jpg"
+                      : "/fylo-dark-theme-landing-page/profile-3.jpg"
+                  }
                   alt="third review profile photo"
                   height={30}
                   width={30}

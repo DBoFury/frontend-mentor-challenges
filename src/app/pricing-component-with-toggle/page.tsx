@@ -13,7 +13,9 @@ const page = () => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "/pricing-component-with-toggle/data.json"
+          process.env.NODE_ENV === "production"
+            ? "/frontend-mentor-challenges/pricing-component-with-toggle/data.json"
+            : "/pricing-component-with-toggle/data.json"
         );
         const jsonData = await response.json();
         setPlanData(jsonData);

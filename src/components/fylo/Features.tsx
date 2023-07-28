@@ -10,7 +10,11 @@ const Features: FC<FeaturesProps> = ({}) => {
         <div className="feature-item">
           <div>
             <Image
-              src="/fylo-dark-theme-landing-page/icon-access-anywhere.svg"
+              src={
+                process.env.NODE_ENV === "production"
+                  ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-access-anywhere.svg"
+                  : "/fylo-dark-theme-landing-page/icon-access-anywhere.svg"
+              }
               alt="desktop icon"
               width={80}
               height={80}
@@ -30,7 +34,11 @@ const Features: FC<FeaturesProps> = ({}) => {
         <div className="feature-item">
           <div>
             <Image
-              src="/fylo-dark-theme-landing-page/icon-security.svg"
+              src={
+                process.env.NODE_ENV === "production"
+                  ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-security.svg"
+                  : "/fylo-dark-theme-landing-page/icon-security.svg"
+              }
               alt="desktop icon"
               width={60}
               height={60}
@@ -51,7 +59,11 @@ const Features: FC<FeaturesProps> = ({}) => {
         <div className="feature-item">
           <div>
             <Image
-              src="/fylo-dark-theme-landing-page/icon-collaboration.svg"
+              src={
+                process.env.NODE_ENV === "production"
+                  ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-collaboration.svg"
+                  : "/fylo-dark-theme-landing-page/icon-collaboration.svg"
+              }
               alt="desktop icon"
               width={75}
               height={75}
@@ -71,7 +83,11 @@ const Features: FC<FeaturesProps> = ({}) => {
         <div className="feature-item">
           <div>
             <Image
-              src="/fylo-dark-theme-landing-page/icon-any-file.svg"
+              src={
+                process.env.NODE_ENV === "production"
+                  ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-any-file.svg"
+                  : "/fylo-dark-theme-landing-page/icon-any-file.svg"
+              }
               alt="desktop icon"
               width={85}
               height={85}

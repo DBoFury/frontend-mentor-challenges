@@ -7,7 +7,11 @@ const How = () => {
     <section className="flex flex-col items-center justify-center w-full px-8 pb-20 space-y-5 text-white font-raleway bg-fylo-main sm:flex-row sm:space-x-5 sm:space-y-0">
       <div className="relative overflow-hidden">
         <Image
-          src="/fylo-dark-theme-landing-page/illustration-stay-productive.png"
+          src={
+            process.env.NODE_ENV === "production"
+              ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/illustration-stay-productive.png"
+              : "/fylo-dark-theme-landing-page/illustration-stay-productive.png"
+          }
           alt="stay productive illustration"
           width={550}
           height={500}
