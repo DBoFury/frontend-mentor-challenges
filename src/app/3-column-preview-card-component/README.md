@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub repository](https://github.com/DBoFury/frontend-mentor-challenges/3-column-preview-card-component)
-- Live Site URL: [Live site URL](https://dbofury.github.io/frontend-mentor-challenges/3-column-preview-card-component/)
+- Live Site URL: [Live site URL](https://dbofury.github.io/frontend-mentor-challenges/3-column-preview-card-component)
 
 ## My process
 
