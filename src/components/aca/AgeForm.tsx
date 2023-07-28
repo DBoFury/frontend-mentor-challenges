@@ -49,25 +49,21 @@ const AgeForm = () => {
 
   return (
     <div className="flex items-center justify-center min-h-screen font-poppins bg-aca-light-grey">
-      <div className="flex flex-col justify-between bg-white h-[13.5rem] w-[9.5rem] py-4 px-3 rounded-lg rounded-br-[20%] dt:rounded-br-[25%] dt:h-64 dt:w-80 dt:py-3 dt:px-5 dt:justify-around">
+      <div className="flex flex-col justify-between bg-white h-[400px] w-[300px] py-8 px-6 rounded-lg rounded-br-[20%] dt:rounded-br-[25%] dt:h-[460px] dt:w-[580px] dt:py-6 dt:px-10 dt:justify-around">
         <form
           id="form"
           className="flex justify-between mt-2 dt:justify-start dt:space-x-3"
           onSubmit={(e) => handleSubmit(onSubmit)(e)}>
           <div className="flex flex-col space-y-[0.2rem]">
             <label
-              className={cn(
-                "text-[12px] text-aca-smokey-grey font-bold uppercase tracking-[2px]",
-                { "text-light-red": errors.day }
-              )}
+              className={cn("label-item", { "text-light-red": errors.day })}
               htmlFor="day">
               Day
             </label>
             <input
-              className={cn(
-                "w-[2.4rem] border-[0.05rem] border-aca-light-grey rounded-[0.25rem] text-[18px] font-bold p-1 px-2 focus:border-aca-purple focus:outline-none cursor-pointer dt:w-16 dt:h-7 dt:text-[22px]",
-                { "border-aca-light-red": errors.day }
-              )}
+              className={cn("input-item", {
+                "border-aca-light-red": errors.day,
+              })}
               type="number"
               placeholder="DD"
               id="day"
@@ -80,7 +76,7 @@ const AgeForm = () => {
             />
             <div>
               {errors.day && (
-                <span className="absolute text-aca-light-red text-[0.225rem] italic dt:text-[0.375rem]">
+                <span className="error-message">
                   {dayErrorMessages(errors.day.type as string)}
                 </span>
               )}
@@ -89,18 +85,16 @@ const AgeForm = () => {
 
           <div className="flex flex-col space-y-[0.2rem]">
             <label
-              className={cn(
-                "text-[12px] text-aca-smokey-grey font-bold uppercase tracking-[2px]",
-                { "text-aca-light-red": errors.month }
-              )}
+              className={cn("label-item", {
+                "text-aca-light-red": errors.month,
+              })}
               htmlFor="month">
               Month
             </label>
             <input
-              className={cn(
-                "w-[2.4rem] border-[0.05rem] border-aca-light-grey rounded-[0.25rem] text-[18px] font-bold p-1 px-2 focus:border-aca-purple focus:outline-none cursor-pointer dt:w-16 dt:h-7 dt:text-[22px]",
-                { "border-aca-light-red": errors.month }
-              )}
+              className={cn("input-item", {
+                "border-aca-light-red": errors.month,
+              })}
               type="number"
               placeholder="MM"
               id="month"
@@ -109,7 +103,7 @@ const AgeForm = () => {
             />
             <div>
               {errors.month && (
-                <span className="absolute text-aca-light-red text-[0.225rem] italic dt:text-[0.375rem]">
+                <span className="error-message">
                   {monthErrorMessages(errors.month.type as string)}
                 </span>
               )}
@@ -118,18 +112,16 @@ const AgeForm = () => {
 
           <div className="flex flex-col space-y-[0.2rem]">
             <label
-              className={cn(
-                "text-[12px] text-aca-smokey-grey font-bold uppercase tracking-[2px]",
-                { "text-aca-light-red": errors.year }
-              )}
+              className={cn("label-item", {
+                "text-aca-light-red": errors.year,
+              })}
               htmlFor="year">
               Year
             </label>
             <input
-              className={cn(
-                "w-[2.4rem] border-[0.05rem] border-aca-light-grey rounded-[0.25rem] text-[18px] font-bold p-1 px-[0.4rem] focus:border-aca-purple focus:outline-none cursor-pointer dt:w-16 dt:h-7 dt:text-[22px] dt:px-2",
-                { "border-aca-light-red": errors.year }
-              )}
+              className={cn("input-item", {
+                "border-aca-light-red": errors.year,
+              })}
               type="number"
               placeholder="YYYY"
               id="year"
@@ -137,7 +129,7 @@ const AgeForm = () => {
             />
             <div>
               {errors.year && (
-                <span className="absolute text-aca-light-red text-[0.225rem] italic dt:text-[0.375rem]">
+                <span className="error-message">
                   {yearErrorMessages(errors.year.type as string)}
                 </span>
               )}
@@ -150,7 +142,7 @@ const AgeForm = () => {
           <button
             type="submit"
             form="form"
-            className="flex items-center justify-center rounded-full w-7 h-7 bg-aca-purple hover:bg-aca-off-black focus:outline-none dt:w-9 dt:h-9">
+            className="flex items-center justify-center w-16 h-16 rounded-full bg-aca-purple hover:bg-aca-off-black focus:outline-none dt:w-20 dt:h-20">
             <Image
               src={
                 process.env.NODE_ENV === "production"
@@ -165,11 +157,11 @@ const AgeForm = () => {
           <div className="flex-grow h-[2px] bg-aca-light-grey rounded-r-full dt:hidden"></div>
         </div>
 
-        <div className="text-2xl font-extrabold italic leading-7 dt:text-[2.5rem] dt:leading-[2.4rem] dt:mb-2">
-          <div className="flex flex-row items-end space-x-1 dt:space-x-[-0.3rem]">
+        <div className="text-5xl font-extrabold italic leading-[3.25rem] dt:text-[5rem] dt:leading-[5rem] dt:mb-4">
+          <div className="flex flex-row items-end space-x-2 dt:space-x-[1rem]">
             <p
               className={cn("text-aca-purple", {
-                "text-[1.5rem] dt:text-4xl dt:tracking-[0.5rem]": !!!result,
+                "text-[3rem] dt:text-[3.5rem] dt:tracking-[0.5rem]": !!!result,
               })}>
               {result?.years !== undefined ? (
                 <CountUp end={result.years} />
@@ -185,10 +177,11 @@ const AgeForm = () => {
                 : "years"}
             </p>
           </div>
-          <div className="flex flex-row items-end space-x-1 dt:space-x-[-0.3rem]">
+          <div className="flex flex-row items-end space-x-2 dt:space-x-[1rem]">
             <p
               className={cn("text-aca-purple", {
-                "text-[1.43rem] dt:text-4xl dt:tracking-[0.5rem]": !!!result,
+                "text-[2.5rem] dt:text-[3.5rem] dt:tracking-[0.5rem]":
+                  !!!result,
               })}>
               {result?.months !== undefined ? (
                 <CountUp end={result.months} />
@@ -204,10 +197,10 @@ const AgeForm = () => {
                 : "months"}
             </p>
           </div>
-          <div className="flex flex-row items-end italic space-x-1 dt:space-x-[-0.3rem]">
+          <div className="flex flex-row items-end italic space-x-2 dt:space-x-[1rem]">
             <p
               className={cn("text-aca-purple", {
-                "text-[1.5rem] dt:text-4xl dt:tracking-[0.5rem]": !!!result,
+                "text-[3rem] dt:text-[3.5rem] dt:tracking-[0.5rem]": !!!result,
               })}>
               {!!result?.days ? <CountUp end={result.days} /> : "--"}
             </p>

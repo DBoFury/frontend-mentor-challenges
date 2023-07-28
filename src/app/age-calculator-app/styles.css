@@ -1,5 +1,13 @@
-html {
-  font-size: 32px;
+.label-item {
+  @apply text-[12px] text-aca-smokey-grey font-bold uppercase tracking-[2px];
+}
+
+.input-item {
+  @apply w-[80px] border-[0.1rem] border-aca-light-grey rounded-[0.25rem] text-[18px] font-bold p-2 px-2 focus:border-aca-purple focus:outline-none cursor-pointer dt:w-[100px] dt:h-[50px] dt:text-[28px];
+}
+
+.error-message {
+  @apply absolute text-aca-light-red text-[0.58rem] italic dt:text-[0.75rem];
 }
 
 input::-webkit-outer-spin-button,
