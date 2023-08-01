@@ -41,8 +41,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repository](https://dbofury.github.io/frontend-mentor-challenges/expenses-chart-component)
-- Live Site URL: [Live site URL](https://github.com/DBoFury/frontend-mentor-challenges/tree/develop/src/app/expenses-chart-component)
+- Solution URL: [GitHub repository](https://github.com/DBoFury/frontend-mentor-challenges/tree/develop/src/app/expenses-chart-component)
+- Live Site URL: [Live site URL](https://dbofury.github.io/frontend-mentor-challenges/expenses-chart-component)
 
 ## My process
 
