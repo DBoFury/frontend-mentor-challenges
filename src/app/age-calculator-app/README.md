@@ -55,8 +55,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repository](https://github.com/DBoFury/frontend-mentor-challenges/age-calculator-app/)
-- Live Site URL: [Live site URL](https://dbofury.github.io/frontend-mentor-challenges/age-calculator-app/)
+- Solution URL: [GitHub repository](https://dbofury.github.io/frontend-mentor-challenges/age-calculator-app)
+- Live Site URL: [Live site URL](https://github.com/DBoFury/frontend-mentor-challenges/tree/develop/src/app/age-calculator-app)
 
 ## My process
 
@@ -86,5 +86,5 @@ Furthermore, I incorporated the react-countup library to animate counting number
 
 ## Author
 
-- GitHub - [dbofury](https://github.com/DBoFury)
-- Frontend Mentor - [@dbofury](https://www.frontendmentor.io/profile/frikol3000)
+- GitHub - [DBoFury](https://github.com/DBoFury)
+- Frontend Mentor - [DBoFury](https://www.frontendmentor.io/profile/DBoFury)
