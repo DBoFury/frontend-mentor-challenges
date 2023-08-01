@@ -49,8 +49,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repository](https://github.com/DBoFury/frontend-mentor-challenges/tree/main/src/app/interactive-card-component)
-- Live Site URL: [Live site URL](https://dbofury.github.io/frontend-mentor-challenges/interactive-card-component)
+- Solution URL: [GitHub repository](https://github.com/DBoFury/frontend-mentor-challenges/tree/main/src/app/interactive-card-details-form)
+- Live Site URL: [Live site URL](https://dbofury.github.io/frontend-mentor-challenges/interactive-card-details-form)
 
 ## My process
 
