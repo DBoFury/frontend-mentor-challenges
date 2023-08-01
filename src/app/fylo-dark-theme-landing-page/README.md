@@ -47,7 +47,7 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- NextJS
+- Next
 - TS
 - Flexbox
 - Grid layout
