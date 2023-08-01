@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repository](https://github.com/DBoFury/product-preview-card-component)
-- Live Site URL: [Live site URL](https://dbofury.github.io/product-preview-card-component/)
+- Solution URL: [GitHub repository](https://github.com/DBoFury/frontend-mentor-challenges/tree/main/src/app/product-preview-card-component)
+- Live Site URL: [Live site URL](https://dbofury.github.io/frontend-mentor-challenges/product-preview-card-component)
 
 ## My process
 
@@ -60,5 +60,5 @@ I still have much to learn about developing effective styling strategies for app
 
 ## Author
 
-- GitHub - [dbofury](https://github.com/DBoFury)
-- Frontend Mentor - [@dbofury](https://www.frontendmentor.io/profile/frikol3000)
+- GitHub - [DBoFury](https://github.com/DBoFury)
+- Frontend Mentor - [DBoFury](https://www.frontendmentor.io/profile/DBoFury)
