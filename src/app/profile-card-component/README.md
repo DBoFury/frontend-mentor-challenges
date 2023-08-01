@@ -31,8 +31,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [GitHub repository](https://github.com/DBoFury/profile-card-component/)
-- Live Site URL: [Live site URL](https://dbofury.github.io/profile-card-component/)
+- Solution URL: [GitHub repository](https://github.com/DBoFury/frontend-mentor-challenges/tree/main/src/app/profile-card-component)
+- Live Site URL: [Live site URL](https://dbofury.github.io/frontend-mentor-challenges/profile-card-component)
 
 ## My process
 
@@ -53,5 +53,5 @@ I applied positioning and overflow management using Tailwind CSS and incorporate
 
 ## Author
 
-- GitHub - [dbofury](https://github.com/DBoFury)
-- Frontend Mentor - [@dbofury](https://www.frontendmentor.io/profile/DBoFury)
+- GitHub - [DBoFury](https://github.com/DBoFury)
+- Frontend Mentor - [DBoFury](https://www.frontendmentor.io/profile/DBoFury)

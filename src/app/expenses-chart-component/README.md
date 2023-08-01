@@ -41,8 +41,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repository](https://github.com/DBoFury/expenses-chart-component/)
-- Live Site URL: [Live site URL](https://dbofury.github.io/expenses-chart-component/)
+- Solution URL: [GitHub repository](https://github.com/DBoFury/frontend-mentor-challenges/tree/develop/src/app/expenses-chart-component)
+- Live Site URL: [Live site URL](https://dbofury.github.io/frontend-mentor-challenges/expenses-chart-component)
 
 ## My process
 
@@ -63,5 +63,5 @@ I tried using Node libraries to work with charts, but none of them provided the 
 
 ## Author
 
-- GitHub - [dbofury](https://github.com/DBoFury)
-- Frontend Mentor - [@dbofury](https://www.frontendmentor.io/profile/DBoFury)
+- GitHub - [DBoFury](https://github.com/DBoFury)
+- Frontend Mentor - [DBoFury](https://www.frontendmentor.io/profile/DBoFury)

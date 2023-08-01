@@ -54,8 +54,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repository](https://github.com/DBoFury/news-homepage/)
-- Live Site URL: [Live site URL](https://dbofury.github.io/news-homepage/)
+- Solution URL: [GitHub repository](https://github.com/DBoFury/frontend-mentor-challenges/tree/main/src/app/news-homepage)
+- Live Site URL: [Live site URL](https://dbofury.github.io/frontend-mentor-challenges/news-homepage)
 
 ## My process
 
@@ -75,5 +75,5 @@ In this project, I have made extensive use of Semantic HTML 5 markup to ensure p
 
 ## Author
 
-- GitHub - [dbofury](https://github.com/DBoFury)
-- Frontend Mentor - [@dbofury](https://www.frontendmentor.io/profile/DBoFury)
+- GitHub - [DBoFury](https://github.com/DBoFury)
+- Frontend Mentor - [DBoFury](https://www.frontendmentor.io/profile/DBoFury)

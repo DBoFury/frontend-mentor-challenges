@@ -43,8 +43,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repository](https://github.com/DBoFury/time-tracking-dashboard/)
-- Live Site URL: [Live site URL](https://dbofury.github.io/time-tracking-dashboard/)
+- Solution URL: [GitHub repository](https://github.com/DBoFury/frontend-mentor-challenges/tree/main/src/app/time-tracking-dashboard)
+- Live Site URL: [Live site URL](https://dbofury.github.io/frontend-mentor-challenges/time-tracking-dashboard)
 
 ## My process
 
@@ -65,5 +65,5 @@ During my work on this challenge, I made sure to adhere to best practices for de
 
 ## Author
 
-- GitHub - [dbofury](https://github.com/DBoFury)
-- Frontend Mentor - [@dbofury](https://www.frontendmentor.io/profile/DBoFury)
+- GitHub - [DBoFury](https://github.com/DBoFury)
+- Frontend Mentor - [DBoFury](https://www.frontendmentor.io/profile/DBoFury)

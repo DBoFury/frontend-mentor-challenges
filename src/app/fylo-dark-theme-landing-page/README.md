@@ -39,15 +39,15 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/DBoFury/frontend-mentor-challenges/tree/main/app/fylo-dark-theme-landing-page)
-- [Live Site URL](https://frontend-mentor-challenges-coral.vercel.app/fylo-dark-theme-landing-page)
+- Solution URL: [GitHub repository](https://github.com/DBoFury/frontend-mentor-challenges/tree/develop/src/app/fylo-dark-theme-landing-page)
+- Live Site URL: [Live site URL](https://dbofury.github.io/frontend-mentor-challenges/fylo-dark-theme-landing-page)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- NextJS
+- Next
 - TS
 - Flexbox
 - Grid layout
@@ -63,5 +63,5 @@ One standout advantage of NextJS is its folder-based routing system, which offer
 
 ## Author
 
-- GitHub - [dbofury](https://github.com/DBoFury)
-- Frontend Mentor - [@dbofury](https://www.frontendmentor.io/profile/DBoFury)
+- GitHub - [DBoFury](https://github.com/DBoFury)
+- Frontend Mentor - [DBoFury](https://www.frontendmentor.io/profile/DBoFury)
