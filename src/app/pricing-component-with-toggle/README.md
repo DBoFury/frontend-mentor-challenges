@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repository](https://github.com/DBoFury/pricing-component-with-toggle/)
-- Live Site URL: [Live site URL](https://dbofury.github.io/pricing-component-with-toggle/)
+- Solution URL: [GitHub repository](https://github.com/DBoFury/frontend-mentor-challenges/tree/main/src/app/pricing-component-with-toggle)
+- Live Site URL: [Live site URL](https://dbofury.github.io/frontend-mentor-challenges/pricing-component-with-toggle)
 
 ## My process
 
@@ -61,5 +61,5 @@ The main challenge I faced was managing the background images. Initially, I atte
 
 ## Author
 
-- GitHub - [dbofury](https://github.com/DBoFury)
-- Frontend Mentor - [@dbofury](https://www.frontendmentor.io/profile/DBoFury)
+- GitHub - [DBoFury](https://github.com/DBoFury)
+- Frontend Mentor - [DBoFury](https://www.frontendmentor.io/profile/DBoFury)
