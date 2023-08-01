@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repository](https://dbofury.github.io/frontend-mentor-challenges/fylo-dark-theme-landing-page)
-- Live Site URL: [Live site URL](https://github.com/DBoFury/frontend-mentor-challenges/tree/develop/src/app/fylo-dark-theme-landing-page)
+- Solution URL: [GitHub repository](https://github.com/DBoFury/frontend-mentor-challenges/tree/develop/src/app/fylo-dark-theme-landing-page)
+- Live Site URL: [Live site URL](https://dbofury.github.io/frontend-mentor-challenges/fylo-dark-theme-landing-page)
 
 ## My process
 
