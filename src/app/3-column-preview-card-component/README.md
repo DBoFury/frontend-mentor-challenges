@@ -64,5 +64,5 @@ As I continue to work with TailwindCSS, I find myself becoming more comfortable 
 
 ## Author
 
-- GitHub - [dbofury](https://github.com/DBoFury)
-- Frontend Mentor - [@dbofury](https://www.frontendmentor.io/profile/frikol3000)
+- GitHub - [DBoFury](https://github.com/DBoFury)
+- Frontend Mentor - [DBoFury](https://www.frontendmentor.io/profile/DBoFury)
