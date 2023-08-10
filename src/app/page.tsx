@@ -26,7 +26,7 @@ export default function Home() {
           />
         </Link>
         <Link
-          href="https://github.com/DBoFury"
+          href="https://github.com/Olacdy"
           rel="noopener noreferrer"
           target="_blank">
           <AiFillGithub

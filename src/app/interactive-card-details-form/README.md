@@ -49,8 +49,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repository](https://github.com/DBoFury/frontend-mentor-challenges/tree/main/src/app/interactive-card-details-form)
-- Live Site URL: [Live site URL](https://dbofury.github.io/frontend-mentor-challenges/interactive-card-details-form)
+- Solution URL: [GitHub repository](https://github.com/Olacdy/frontend-mentor-challenges/tree/main/src/app/interactive-card-details-form)
+- Live Site URL: [Live site URL](https://olacdy.github.io/frontend-mentor-challenges/interactive-card-details-form)
 
 ## My process
 
@@ -70,7 +70,7 @@ It was indeed a rather difficult challenge. I'm still not too happy with the fin
 
 ## Author
 
-- GitHub - [DBoFury](https://github.com/DBoFury)
+- GitHub - [Olacdy](https://github.com/Olacdy)
 - Frontend Mentor - [DBoFury](https://www.frontendmentor.io/profile/DBoFury)
 
 ## Acknowledgments
