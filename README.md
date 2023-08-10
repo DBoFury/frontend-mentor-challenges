@@ -6,7 +6,7 @@ This a repository where I will try to keep all of the Frontend Mentor tasks solu
 
 To start using this web app go to:
 
-https://dbofury.github.io/frontend-mentor-challenges/
+https://olacdy.github.io/frontend-mentor-challenges/
 
 or clone the repo and run the dev server with:
 
