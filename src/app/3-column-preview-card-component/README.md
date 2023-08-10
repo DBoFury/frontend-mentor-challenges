@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repository](https://github.com/DBoFury/frontend-mentor-challenges/tree/main/src/app/3-column-preview-card-component)
-- Live Site URL: [Live site URL](https://dbofury.github.io/frontend-mentor-challenges/3-column-preview-card-component)
+- Solution URL: [GitHub repository](https://github.com/Olacdy/frontend-mentor-challenges/tree/main/src/app/3-column-preview-card-component)
+- Live Site URL: [Live site URL](https://olacdy.github.io/frontend-mentor-challenges/3-column-preview-card-component)
 
 ## My process
 
@@ -64,5 +64,5 @@ As I continue to work with TailwindCSS, I find myself becoming more comfortable 
 
 ## Author
 
-- GitHub - [DBoFury](https://github.com/DBoFury)
+- GitHub - [Olacdy](https://github.com/Olacdy)
 - Frontend Mentor - [DBoFury](https://www.frontendmentor.io/profile/DBoFury)
