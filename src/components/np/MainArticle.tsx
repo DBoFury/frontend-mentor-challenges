@@ -3,17 +3,7 @@ import { mainSectionText } from "@/helpers/np/articles-text";
 const MainArticle = () => {
   return (
     <article className="flex flex-col space-y-5">
-      <div
-        className={`w-full min-h-[17rem] h-[40vh] bg-cover bg-no-repeat bg-center ${
-          process.env.NODE_ENV === "production"
-            ? "bg-np-main-mobile-prod"
-            : "bg-np-main-mobile"
-        } cursor-pointer ${
-          process.env.NODE_ENV === "production"
-            ? "dt:bg-np-main-desktop-prod"
-            : "dt:bg-np-main-desktop"
-        } dt:h-[30vh]`}
-      />
+      <div className="w-full min-h-[17rem] h-[40vh] bg-cover bg-no-repeat bg-center bg-np-main-mobile cursor-pointer dt:bg-np-main-desktop dt:h-[30vh]" />
       <div className="flex flex-col pb-5 space-y-3 dt:flex-row dt:space-x-10">
         <h1 className="font-extrabold text-[2.3rem] leading-10 cursor-pointer text-np-very-dark-blue dt:text-6xl">
           {mainSectionText().title}

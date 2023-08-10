@@ -145,9 +145,7 @@ const AgeForm = () => {
             className="flex items-center justify-center w-16 h-16 rounded-full bg-aca-purple hover:bg-aca-off-black focus:outline-none dt:w-20 dt:h-20">
             <Image
               src={
-                process.env.NODE_ENV === "production"
-                  ? "/frontend-mentor-challenges/age-calculator-app/icon-arrow.svg"
-                  : "/age-calculator-app/icon-arrow.svg"
+                "/frontend-mentor-challenges/age-calculator-app/icon-arrow.svg"
               }
               alt="arrow icon"
               width={30}

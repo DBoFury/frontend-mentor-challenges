@@ -185,57 +185,38 @@ module.exports = {
       backgroundImage: {
         // Fylo Dark Theme Landing Page
         "fylo-desktop":
-          "url('/fylo-dark-theme-landing-page/bg-curvy-desktop.svg')",
-        "fylo-mobile":
-          "url('/fylo-dark-theme-landing-page/bg-curvy-mobile.svg')",
-        "fylo-desktop-prod":
           "url('/frontend-mentor-challenges/fylo-dark-theme-landing-page/bg-curvy-desktop.svg')",
-        "fylo-mobile-prod":
+        "fylo-mobile":
           "url('/frontend-mentor-challenges/fylo-dark-theme-landing-page/bg-curvy-mobile.svg')",
         // Launch Countdown Timer
-        "lct-stars": "url('/launch-countdown-timer/bg-stars.svg')",
-        "lct-pattern-hills": "url('/launch-countdown-timer/pattern-hills.svg')",
-        "lct-stars-prod":
+        "lct-stars":
           "url('/frontend-mentor-challenges/launch-countdown-timer/bg-stars.svg')",
-        "lct-pattern-hills-prod":
+        "lct-pattern-hills":
           "url('/frontend-mentor-challenges/launch-countdown-timer/pattern-hills.svg')",
         // News Homepage
-        "np-main-mobile": "url('/news-homepage/image-web-3-mobile.jpg')",
-        "np-main-desktop": "url('/news-homepage/image-web-3-desktop.jpg')",
-        "np-retro-pcs": "url('/news-homepage/image-retro-pcs.jpg')",
-        "np-top-laptops": "url('/news-homepage/image-top-laptops.jpg')",
-        "np-gaming-growth": "url('/news-homepage/image-gaming-growth.jpg')",
-        "np-main-mobile-prod":
+        "np-main-mobile":
           "url('/frontend-mentor-challenges/news-homepage/image-web-3-mobile.jpg')",
-        "np-main-desktop-prod":
+        "np-main-desktop":
           "url('/frontend-mentor-challenges/news-homepage/image-web-3-desktop.jpg')",
-        "np-retro-pcs-prod":
+        "np-retro-pcs":
           "url('/frontend-mentor-challenges/news-homepage/image-retro-pcs.jpg')",
-        "np-top-laptops-prod":
+        "np-top-laptops":
           "url('/frontend-mentor-challenges/news-homepage/image-top-laptops.jpg')",
-        "np-gaming-growth-prod":
+        "np-gaming-growth":
           "url('/frontend-mentor-challenges/news-homepage/image-gaming-growth.jpg')",
         // Pricing Component With Toggle
-        "pct-image-top": "url('/pricing-component-with-toggle/bg-top.svg')",
-        "pct-image-bottom":
-          "url('/pricing-component-with-toggle/bg-bottom.svg')",
-        "pct-image-top-prod":
+        "pct-image-top":
           "url('/frontend-mentor-challenges/pricing-component-with-toggle/bg-top.svg')",
-        "pct-image-bottom-prod":
+        "pct-image-bottom":
           "url('/frontend-mentor-challenges/pricing-component-with-toggle/bg-bottom.svg')",
         // Profile Card Component
-        "pcc-profile": "url('/profile-card-component/image-victor.jpg')",
-        "pcc-pattern-top": "url('/profile-card-component/bg-pattern-top.svg')",
-        "pcc-pattern-bottom":
-          "url('/profile-card-component/bg-pattern-bottom.svg')",
-        "pcc-card": "url('/profile-card-component/bg-pattern-card.svg')",
-        "pcc-profile-prod":
+        "pcc-profile":
           "url('/frontend-mentor-challenges/profile-card-component/image-victor.jpg')",
-        "pcc-pattern-top-prod":
+        "pcc-pattern-top":
           "url('/frontend-mentor-challenges/profile-card-component/bg-pattern-top.svg')",
-        "pcc-pattern-bottom-prod":
+        "pcc-pattern-bottom":
           "url('/frontend-mentor-challenges/profile-card-component/bg-pattern-bottom.svg')",
-        "pcc-card-prod":
+        "pcc-card":
           "url('/frontend-mentor-challenges/profile-card-component/bg-pattern-card.svg')",
       },
       fontFamily: {

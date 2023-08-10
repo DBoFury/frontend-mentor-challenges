@@ -20,15 +20,9 @@ const ActivityCard: FC<ActivityCardProps> = ({ item, timestamp }) => {
         )}>
         <div className="overflow-hidden">
           <Image
-            src={
-              process.env.NODE_ENV === "production"
-                ? `/frontend-mentor-challenges/time-tracking-dashboard/icon-${item.title
-                    .toLowerCase()
-                    .replace(" ", "-")}.svg`
-                : `/time-tracking-dashboard/icon-${item.title
-                    .toLowerCase()
-                    .replace(" ", "-")}.svg`
-            }
+            src={`/frontend-mentor-challenges/time-tracking-dashboard/icon-${item.title
+              .toLowerCase()
+              .replace(" ", "-")}.svg`}
             alt={`${item.title} icon`}
             width={70}
             height={70}
@@ -43,9 +37,7 @@ const ActivityCard: FC<ActivityCardProps> = ({ item, timestamp }) => {
             <div className="cursor-pointer">
               <Image
                 src={
-                  process.env.NODE_ENV === "production"
-                    ? "/frontend-mentor-challenges/time-tracking-dashboard/icon-ellipsis.svg"
-                    : "/time-tracking-dashboard/icon-ellipsis.svg"
+                  "/frontend-mentor-challenges/time-tracking-dashboard/icon-ellipsis.svg"
                 }
                 alt="ellipsis icon"
                 width={25}

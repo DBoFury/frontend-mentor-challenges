@@ -8,9 +8,7 @@ const Footer = () => {
       <Link href="/fylo-dark-theme-landing-page">
         <Image
           src={
-            process.env.NODE_ENV === "production"
-              ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/logo.svg"
-              : "/fylo-dark-theme-landing-page/logo.svg"
+            "/frontend-mentor-challenges/fylo-dark-theme-landing-page/logo.svg"
           }
           alt="logo"
           width={160}
@@ -22,9 +20,7 @@ const Footer = () => {
         <div className="flex items-start w-3/5 space-x-5 md:w-1/3">
           <Image
             src={
-              process.env.NODE_ENV === "production"
-                ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-location.svg"
-                : "/fylo-dark-theme-landing-page/icon-location.svg"
+              "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-location.svg"
             }
             alt="location icon"
             width={20}
@@ -40,9 +36,7 @@ const Footer = () => {
           <div className="flex items-start space-x-4">
             <Image
               src={
-                process.env.NODE_ENV === "production"
-                  ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-phone.svg"
-                  : "/fylo-dark-theme-landing-page/icon-phone.svg"
+                "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-phone.svg"
               }
               alt="phone icon"
               width={17}
@@ -54,9 +48,7 @@ const Footer = () => {
           <div className="flex items-start space-x-4">
             <Image
               src={
-                process.env.NODE_ENV === "production"
-                  ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-email.svg"
-                  : "/fylo-dark-theme-landing-page/icon-email.svg"
+                "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-email.svg"
               }
               alt="email icon"
               width={20}

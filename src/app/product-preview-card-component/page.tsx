@@ -6,9 +6,7 @@ const page = () => {
       <div className="flex flex-col max-w-2xl m-4 dt:flex-row">
         <Image
           src={
-            process.env.NODE_ENV === "production"
-              ? "/frontend-mentor-challenges/product-preview-card-component/image-product-desktop.jpg"
-              : "/product-preview-card-component/image-product-desktop.jpg"
+            "/frontend-mentor-challenges/product-preview-card-component/image-product-desktop.jpg"
           }
           alt="desktop product image"
           width={500}
@@ -17,9 +15,7 @@ const page = () => {
         />
         <Image
           src={
-            process.env.NODE_ENV === "production"
-              ? "/frontend-mentor-challenges/product-preview-card-component/image-product-mobile.jpg"
-              : "/product-preview-card-component/image-product-mobile.jpg"
+            "/frontend-mentor-challenges/product-preview-card-component/image-product-mobile.jpg"
           }
           alt="mobile product image"
           width={1000}
@@ -49,9 +45,7 @@ const page = () => {
             <button className="flex items-center justify-center w-full py-4 space-x-3 font-bold text-white bg-ppc-dark-cyan rounded-xl font-montserrat focus:outline-none hover:bg-ppc-dark-cyan-dark">
               <Image
                 src={
-                  process.env.NODE_ENV === "production"
-                    ? "/frontend-mentor-challenges/product-preview-card-component/icon-cart.svg"
-                    : "/product-preview-card-component/icon-cart.svg"
+                  "/frontend-mentor-challenges/product-preview-card-component/icon-cart.svg"
                 }
                 alt="cart icon"
                 width={50}

@@ -11,9 +11,7 @@ const Features: FC<FeaturesProps> = ({}) => {
           <div>
             <Image
               src={
-                process.env.NODE_ENV === "production"
-                  ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-access-anywhere.svg"
-                  : "/fylo-dark-theme-landing-page/icon-access-anywhere.svg"
+                "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-access-anywhere.svg"
               }
               alt="desktop icon"
               width={80}
@@ -35,9 +33,7 @@ const Features: FC<FeaturesProps> = ({}) => {
           <div>
             <Image
               src={
-                process.env.NODE_ENV === "production"
-                  ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-security.svg"
-                  : "/fylo-dark-theme-landing-page/icon-security.svg"
+                "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-security.svg"
               }
               alt="desktop icon"
               width={60}
@@ -60,9 +56,7 @@ const Features: FC<FeaturesProps> = ({}) => {
           <div>
             <Image
               src={
-                process.env.NODE_ENV === "production"
-                  ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-collaboration.svg"
-                  : "/fylo-dark-theme-landing-page/icon-collaboration.svg"
+                "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-collaboration.svg"
               }
               alt="desktop icon"
               width={75}
@@ -84,9 +78,7 @@ const Features: FC<FeaturesProps> = ({}) => {
           <div>
             <Image
               src={
-                process.env.NODE_ENV === "production"
-                  ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-any-file.svg"
-                  : "/fylo-dark-theme-landing-page/icon-any-file.svg"
+                "/frontend-mentor-challenges/fylo-dark-theme-landing-page/icon-any-file.svg"
               }
               alt="desktop icon"
               width={85}

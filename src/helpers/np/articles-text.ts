@@ -32,26 +32,17 @@ export const otherSectionText = (): OtherArticle[] => {
     {
       title: "Reviving Retro PCs",
       text: "What happens when old PCs are given modern upgrades?",
-      img:
-        process.env.NODE_ENV === "production"
-          ? "bg-np-retro-pcs-prod"
-          : "bg-np-retro-pcs",
+      img: "bg-np-retro-pcs",
     },
     {
       title: "Top 10 Laptops of 2022",
       text: "Our best picks for various needs and budgets.",
-      img:
-        process.env.NODE_ENV === "production"
-          ? "bg-np-top-laptops-prod"
-          : "bg-np-top-laptops",
+      img: "bg-np-top-laptops",
     },
     {
       title: "The Growth of Gaming",
       text: "How the pandemic has sparked fresh opportunities.",
-      img:
-        process.env.NODE_ENV === "production"
-          ? "bg-np-gaming-growth-prod"
-          : "bg-np-gaming-growth",
+      img: "bg-np-gaming-growth",
     },
   ];
 };

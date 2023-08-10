@@ -12,9 +12,7 @@ const page = () => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          process.env.NODE_ENV === "production"
-            ? "/frontend-mentor-challenges/expenses-chart-component/data.json"
-            : "/expenses-chart-component/data.json"
+          "/frontend-mentor-challenges/expenses-chart-component/data.json"
         );
         const jsonData = await response.json();
         setDaysData(jsonData);

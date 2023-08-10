@@ -13,11 +13,7 @@ const Balance: FC<BalanceProps> = ({ balance }) => {
         <h5 className="text-lg font-bold md:text-xl">${balance}</h5>
       </div>
       <Image
-        src={
-          process.env.NODE_ENV === "production"
-            ? "/frontend-mentor-challenges/expenses-chart-component/logo.svg"
-            : "/expenses-chart-component/logo.svg"
-        }
+        src={"/frontend-mentor-challenges/expenses-chart-component/logo.svg"}
         alt="logo"
         width={30}
         height={30}

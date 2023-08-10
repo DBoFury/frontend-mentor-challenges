@@ -8,9 +8,7 @@ const How = () => {
       <div className="relative overflow-hidden">
         <Image
           src={
-            process.env.NODE_ENV === "production"
-              ? "/frontend-mentor-challenges/fylo-dark-theme-landing-page/illustration-stay-productive.png"
-              : "/fylo-dark-theme-landing-page/illustration-stay-productive.png"
+            "/frontend-mentor-challenges/fylo-dark-theme-landing-page/illustration-stay-productive.png"
           }
           alt="stay productive illustration"
           width={550}

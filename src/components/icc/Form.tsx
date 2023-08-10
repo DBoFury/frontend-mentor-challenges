@@ -69,9 +69,7 @@ const Form: FC<FormProps> = ({ setCardDetails }) => {
           <div className="animate-fade-down animate-once animate-duration-500 animate-delay-100 animate-ease-in">
             <Image
               src={
-                process.env.NODE_ENV === "production"
-                  ? "/frontend-mentor-challenges/interactive-card-details-form/icon-complete.svg"
-                  : "/interactive-card-details-form/icon-complete.svg"
+                "/frontend-mentor-challenges/interactive-card-details-form/icon-complete.svg"
               }
               alt="complete icon"
               width={60}

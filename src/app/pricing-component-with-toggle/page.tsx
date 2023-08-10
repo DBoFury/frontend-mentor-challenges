@@ -13,9 +13,7 @@ const page = () => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          process.env.NODE_ENV === "production"
-            ? "/frontend-mentor-challenges/pricing-component-with-toggle/data.json"
-            : "/pricing-component-with-toggle/data.json"
+          "/frontend-mentor-challenges/pricing-component-with-toggle/data.json"
         );
         const jsonData = await response.json();
         setPlanData(jsonData);
@@ -29,20 +27,8 @@ const page = () => {
 
   return (
     <div className="relative flex items-center justify-center min-h-screen overflow-hidden font-bold font-montserrat bg-pct-very-light-grayish-blue">
-      <div
-        className={`absolute top-0 right-0 w-3/4 translate-x-5 -translate-y-20 bg-right-top bg-no-repeat bg-contain h-1/4 ${
-          process.env.NODE_ENV === "production"
-            ? "bg-pct-image-top-prod"
-            : "bg-pct-image-top"
-        } md:h-1/2 dt:h-3/4`}
-      />
-      <div
-        className={`absolute bottom-0 left-0 hidden w-1/2 bg-left-bottom bg-no-repeat bg-contain h-1/2 ${
-          process.env.NODE_ENV === "production"
-            ? "bg-pct-image-bottom-prod"
-            : "bg-pct-image-bottom"
-        } md:block`}
-      />
+      <div className="absolute top-0 right-0 w-3/4 translate-x-5 -translate-y-20 bg-right-top bg-no-repeat bg-contain h-1/4 bg-pct-image-top md:h-1/2 dt:h-3/4" />
+      <div className="absolute bottom-0 left-0 hidden w-1/2 bg-left-bottom bg-no-repeat bg-contain h-1/2 bg-pct-image-bottom md:block" />
       <main className="related z-10 my-[4.5rem] flex flex-col space-y-20">
         <section className="flex flex-col items-center space-y-8">
           <h1 className="text-[2rem] text-pct-grayish-blue">Our Pricing</h1>

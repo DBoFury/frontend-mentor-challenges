@@ -54,9 +54,7 @@ const AsideNavBar: FC<AsideNavBarProps> = ({ openNavBar, setOpenNavBar }) => {
           onClick={() => setOpenNavBar(false)}>
           <Image
             src={
-              process.env.NODE_ENV === "production"
-                ? "/frontend-mentor-challenges/news-homepage/menu-close-icon.svg"
-                : "/news-homepage/menu-close-icon.svg"
+              "/frontend-mentor-challenges/news-homepage/menu-close-icon.svg"
             }
             alt="close menu icon"
             width={30}

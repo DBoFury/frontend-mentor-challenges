@@ -14,9 +14,7 @@ const PersonCard: FC<PersonCardProps> = ({ timestamp, setTimestamp }) => {
         <div className="relative rounded-full h-[4.25rem] w-[4.25rem]  border-2 border-white md:h-[5.25rem] md:w-[5.25rem]">
           <Image
             src={
-              process.env.NODE_ENV === "production"
-                ? "/frontend-mentor-challenges/time-tracking-dashboard/image-jeremy.png"
-                : "/time-tracking-dashboard/image-jeremy.png"
+              "/frontend-mentor-challenges/time-tracking-dashboard/image-jeremy.png"
             }
             alt="profile image"
             fill

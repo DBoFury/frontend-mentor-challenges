@@ -16,11 +16,7 @@ const Header: FC<HeaderProps> = ({ openNavBar, setOpenNavBar }) => {
         href="/news-homepage"
         className="flex items-center justify-center focus:outline-none">
         <Image
-          src={
-            process.env.NODE_ENV === "production"
-              ? "/frontend-mentor-challenges/news-homepage/logo-icon.svg"
-              : "/news-homepage/logo-icon.svg"
-          }
+          src={"/frontend-mentor-challenges/news-homepage/logo-icon.svg"}
           alt="logo"
           width={100}
           height={50}
@@ -33,11 +29,7 @@ const Header: FC<HeaderProps> = ({ openNavBar, setOpenNavBar }) => {
           })}
           onClick={() => setOpenNavBar(true)}>
           <Image
-            src={
-              process.env.NODE_ENV === "production"
-                ? "/frontend-mentor-challenges/news-homepage/menu-icon.svg"
-                : "/news-homepage/menu-icon.svg"
-            }
+            src={"/frontend-mentor-challenges/news-homepage/menu-icon.svg"}
             alt="menu icon"
             width={40}
             height={40}

@@ -13,9 +13,7 @@ function page() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          process.env.NODE_ENV === "production"
-            ? "/frontend-mentor-challenges/results-summary-component/data.json"
-            : "/results-summary-component/data.json"
+          "/frontend-mentor-challenges/results-summary-component/data.json"
         );
         const jsonData = await response.json();
         setData(jsonData);
