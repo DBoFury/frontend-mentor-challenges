@@ -59,6 +59,7 @@ const dm_sans = DM_Sans({
 
 const space_grotesk = Space_Grotesk({
   subsets: ["latin"],
+  weight: ["300", "500"],
   display: "swap",
   variable: "--font-space-grotesk",
 });

@@ -81,10 +81,10 @@ module.exports = {
           "very-pale-orange": "hsl(33, 100%, 98%)",
         },
         // Interactive Card Details Form
-        icc: {
-          "active-input-border": {
-            start: "hsl(249, 99%, 64%)",
-            end: "hsl(278, 94%, 30%)",
+        icd: {
+          "active-input": {
+            from: "hsl(249, 99%, 64%)",
+            to: "hsl(278, 94%, 30%)",
           },
           red: "hsl(0, 100%, 66%)",
           "light-grayish-violet": "hsl(270, 3%, 87%)",
@@ -188,6 +188,15 @@ module.exports = {
           "url('/frontend-mentor-challenges/fylo-dark-theme-landing-page/bg-curvy-desktop.svg')",
         "fylo-mobile":
           "url('/frontend-mentor-challenges/fylo-dark-theme-landing-page/bg-curvy-mobile.svg')",
+        // Interactive Card Details Form
+        "icd-card-back":
+          "url(/frontend-mentor-challenges/interactive-card-details-form/bg-card-back.png)",
+        "icd-card-front":
+          "url(/frontend-mentor-challenges/interactive-card-details-form/bg-card-front.png)",
+        "icd-main-desktop":
+          "url(/frontend-mentor-challenges/interactive-card-details-form/bg-main-desktop.png)",
+        "icd-main-mobile":
+          "url(/frontend-mentor-challenges/interactive-card-details-form/bg-main-mobile.png)",
         // Launch Countdown Timer
         "lct-stars":
           "url('/frontend-mentor-challenges/launch-countdown-timer/bg-stars.svg')",
